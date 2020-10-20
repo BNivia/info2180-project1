@@ -1,11 +1,90 @@
 /* Add your CSS to this file */
 body {
-    margin: 0;
-    font-size: 16px;
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+/*all for header and nav*/
+header {
+  font-size: 18px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 20;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a {
+  color: #6b7280;
+  padding: 14px 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #5a67d8;
+}
+
+/*overview container*/
+.overview-hero .container {
+  background-color: #e2e8f0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.overview-hero-image img {
+  border-radius: 500px;
+  align-self: flex-start;
+  margin: 20px 30px 0 0;
+}
+
+.overview-hero-text {
+  padding-right: 50px;
+  flex: 1 1 auto;
+}
+
+/*learn about here*/
+/*this is def with grid, 3 coloums, 1 row apply to whole container*/
+
+/*testing*/
+.testing .container {
+  background-color: #4a5568;
+  color: #fff;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.testing .container .cta {
+  background-color: #48bb78;
+  border-style: none;
+  border-radius: 5px;
+  padding: 14px 1px;
+  margin: 0px 3px;
+  width: 50%;
+  text-align: center;
+}
+
+.testing .container .cta a {
+  color: #fff;
 }
