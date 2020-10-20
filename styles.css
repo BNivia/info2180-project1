@@ -88,3 +88,37 @@ nav a:hover {
 .testing .container .cta a {
   color: #fff;
 }
+
+/*Recent stories section*/
+
+.stories .container {
+  padding-top: 20px;
+}
+
+.stories h2,
+.stories a {
+  color: #5a67d8;
+}
+
+.stories img {
+  border-radius: 100px;
+}
+
+/*Sign up for news letter and footer*/
+.newsletter .container {
+  display: flex;
+  background-color: #48bb78;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.form-group {
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-group .btn {
+  background-color: #5a67d8;
+}
