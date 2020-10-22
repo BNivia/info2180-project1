@@ -145,3 +145,8 @@ input {
 }
 
 /*Footer*/
+footer {
+  background-color: #4a5568;
+  padding: 10px;
+  color: #fff;
+}
