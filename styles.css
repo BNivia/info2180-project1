@@ -66,6 +66,35 @@ nav a:hover {
 /*learn about here*/
 /*this is def with grid, 3 coloums, 1 row apply to whole container*/
 
+.learn-about .cards {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+}
+
+.cards .card {
+  border: 2px outset;
+  width: 300px;
+  margin: 40px;
+  border-color: #e2e8f0;
+  box-shadow: #e2e8f0;
+  border-radius: 5px;
+}
+
+.card img {
+  margin: 0 auto;
+}
+
+.cards p,
+.cards h3 {
+  text-align: left;
+  padding: 10px;
+}
+
+.learn-about h2,
+.learn-about h3 {
+  color: #48bb78;
+}
+
 /*testing*/
 .testing .container {
   background-color: #4a5568;
@@ -112,6 +141,7 @@ nav a:hover {
 }
 
 /*Sign up for news letter*/
+
 .newsletter .container {
   display: flex;
   background-color: #48bb78;
@@ -141,7 +171,7 @@ input {
 }
 
 .newsletter .container p {
-  width: 60%;
+  width: 55%;
 }
 
 /*Footer*/
