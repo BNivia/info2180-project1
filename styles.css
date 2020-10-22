@@ -91,8 +91,15 @@ nav a:hover {
 
 /*Recent stories section*/
 
-.stories .container {
-  padding-top: 20px;
+.stories article {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories .article-body {
+  padding-left: 20px;
 }
 
 .stories h2,
@@ -119,6 +126,20 @@ nav a:hover {
   align-items: center;
 }
 
-.form-group .btn {
+form button {
   background-color: #5a67d8;
+  border-style: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #fff;
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.newsletter .container p {
+  border: 5px;
 }
