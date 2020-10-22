@@ -47,7 +47,7 @@ nav a:hover {
 /*overview container*/
 .overview-hero .container {
   background-color: #e2e8f0;
-  padding: 30px;
+  padding: 30px 80px;
   display: flex;
   align-items: center;
 }
@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .overview-hero-text {
-  padding-right: 50px;
+  padding-left: 50px;
   flex: 1 1 auto;
 }
 
@@ -111,7 +111,7 @@ nav a:hover {
   border-radius: 100px;
 }
 
-/*Sign up for news letter and footer*/
+/*Sign up for news letter*/
 .newsletter .container {
   display: flex;
   background-color: #48bb78;
@@ -141,5 +141,7 @@ input {
 }
 
 .newsletter .container p {
-  border: 5px;
+  width: 60%;
 }
+
+/*Footer*/
