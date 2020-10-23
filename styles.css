@@ -181,7 +181,9 @@ footer .container {
   color: #fff;
 }
 
+/*Message for email thank you or error*/
 .message {
   color: #fff;
-  padding: 10px;
+  font-style: italic;
+  padding-top: 20px;
 }
