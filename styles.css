@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 /*learn about here*/
-/*this is def with grid, 3 coloums, 1 row apply to whole container*/
+/*this is def with grid, 3 coloums, 1 row apply to cards*/
 
 .learn-about .cards {
   display: grid;
@@ -93,6 +93,11 @@ nav a:hover {
 .learn-about h2,
 .learn-about h3 {
   color: #48bb78;
+  font-size: 21px;
+}
+
+.learn-about h2 {
+  font-size: 24px;
 }
 
 /*testing*/
